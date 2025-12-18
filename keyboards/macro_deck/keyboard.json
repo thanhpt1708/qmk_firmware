@@ -1,0 +1,37 @@
+{
+    "manufacturer": "ThanhPT",
+    "keyboard_name": "macro_deck",
+    "maintainer": "ThanhPT",
+    "development_board": "promicro",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "direct_pins": [
+        ["D4", "D0", "D1"],
+        ["E6", "D7", "C6"],
+        ["B6", "B5", "B4"]
+    ],
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x4C4E",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2}
+            ]
+        }
+    }
+}
